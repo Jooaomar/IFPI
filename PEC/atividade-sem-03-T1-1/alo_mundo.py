@@ -1,4 +1,3 @@
-"""Escrevendo Alô mundo"""
 print("Alô, mundo!")
 print("ALO MUNDO")
 print("alô, mundo.")
