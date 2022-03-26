@@ -1,6 +1,6 @@
-dividendo = float(input())
-divisor = float(input())
+dividendo = float(input("Digite o dividendo: "))
+divisor = float(input("Digite o divisor: "))
 quociente = dividendo // divisor
 resto = dividendo % divisor
-print('%1.4f' %(quociente))
-print('%1.4f' %(resto))
+print('Valor quociente: %1.4f' %(quociente))
+print('Resto: %1.4f' %(resto))

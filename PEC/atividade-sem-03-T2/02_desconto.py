@@ -1,3 +1,3 @@
-preco = float(input())
+preco = float(input("Preço do produto: "))
 descontar = preco * 0.9
-print(round(descontar, 2))
+print("Preço descontado em 10%:", round(descontar, 2))
