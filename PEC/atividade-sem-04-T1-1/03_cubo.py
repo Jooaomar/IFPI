@@ -3,7 +3,7 @@ def cubo(x):
 
 
 def main():
-    n = int(input('Escreva um número: '))
+    n = int(input('Escreva um número: ').strip())
     c = cubo(n)
     print(f'{n} elevado ao cubo é: {c}')
 

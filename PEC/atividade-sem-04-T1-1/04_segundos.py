@@ -6,9 +6,9 @@ def soma_segundos(h, m, s):
 
 
 def main():
-    horas = int(input('Escreva o valor horas: '))
-    minutos = int(input('Escreva o valor minutos: '))
-    segundos = int(input('Escreva o valor segundos: '))
+    horas = int(input('Escreva o valor horas: ').strip())
+    minutos = int(input('Escreva o valor minutos: ').strip())
+    segundos = int(input('Escreva o valor segundos: ').strip())
     total_segundos = soma_segundos(horas, minutos, segundos)
 
     print(f'De meia noita à {horas}:{minutos}:{segundos} hrs, se passaram {total_segundos} segundos')

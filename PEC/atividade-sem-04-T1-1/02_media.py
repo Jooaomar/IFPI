@@ -4,9 +4,9 @@ def media(a,b,c):
 
 
 def main():
-    x = int(input("Digite um número x: "))
-    y = int(input("Digite um número y: "))
-    z = int(input("Digite um número z: "))
+    x = int(input("Digite um número x: ").strip())
+    y = int(input("Digite um número y: ").strip())
+    z = int(input("Digite um número z: ").strip())
 
     resultado = media(x,y,z)
 

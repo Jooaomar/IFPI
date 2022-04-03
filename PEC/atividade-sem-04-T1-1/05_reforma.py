@@ -7,9 +7,9 @@ def reforma(a,c,l):
 
 
 def main():
-    v1 = int(input('Altura: '))
-    v2 = int(input('Comprimento: '))
-    v3 = int(input('Largura: '))
+    v1 = int(input('Altura: ').strip())
+    v2 = int(input('Comprimento: ').strip())
+    v3 = int(input('Largura: ').strip())
     
     r_apiso, r_volume, r_aparedes = reforma(v1, v2, v3)
 
