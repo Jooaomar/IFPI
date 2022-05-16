@@ -12,7 +12,7 @@ def main():
         print('X       PARA TOTAL DA CONTA')
 
         
-        v = input('Código: ').upper()[0]
+        v = input().upper()[0]
 
         if v == 'H':
             total += 5.50 
@@ -25,7 +25,7 @@ def main():
         elif v == 'Q':
             total += 4.00
         elif v == 'X':
-            print(f'O total a pagar: {total:.2f}')
+            print(f'{total:.2f}')
             break 
         else:
             print('Opção inválida.')
