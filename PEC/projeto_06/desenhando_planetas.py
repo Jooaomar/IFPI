@@ -18,9 +18,11 @@ def drawPlanet(startSize, startColor):
     penup()             # Parar de desenhar
 
 # Desenha o fundo azul escuro
-bgcolor("MidnightBlue")
+bgcolor("Black")
 
-drawPlanet(1, "red")
-forward(100)
+
+# Definindo tamanho do planeta e cor
+drawPlanet(5, "red")
+forward(50)
 
 done()

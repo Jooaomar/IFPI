@@ -5,13 +5,15 @@ from random import *
 
 
 def moveToRandomLocation():
+    """Função que move a tartaruga para uma posição aleatória"""
     penup()
     setpos( randint(-400,400), randint(-400,400) )
     pendown()
 
 
-def drawStart(startSize, startColor):
 
+def drawStart(startSize, startColor):
+    """Uma função para desenhar uma estrela de um tamanho específico"""
     color(startColor)
     pendown()           # Começar a desenhar
     begin_fill()        # Colorir forma
@@ -25,9 +27,10 @@ def drawStart(startSize, startColor):
 
 
 def drawGalaxy(numberOfStars):
+    """Uma função para desenhar uma pequena galáxia de estrelas"""
     startColours = ["#058396", "#0275A6", "#827E01"]
     moveToRandomLocation()
-    
+    # Desenha várias pequenas estrelas coloridas    
     for star in range(numberOfStars):
         penup()
         left( randint(-180, 180) )
@@ -39,6 +42,7 @@ def drawGalaxy(numberOfStars):
 
 speed(11)
 
+# Desenha o fundo Azul escuro
 bgcolor("MidnightBlue")
 
 # Desenha 30 estrelas brancas
